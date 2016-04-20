@@ -1,0 +1,18 @@
+
+.ui-inputfield {
+    background: #fdb714;
+    border: none;
+    line-height: normal;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 34px;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    background: #eb0a8d !important;
+}
+
+ 
+

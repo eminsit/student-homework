@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+  <h:head>
+    <f:facet name="first">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    </f:facet>
+
+
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Travelo | Responsive HTML5 Travel Template" />
+    <meta name="author" content="SoapTheme" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  </h:head>
+  <h:body>
+    <ui:insert name="css-include">
+      <!-- Theme Styles -->
+      <link rel="stylesheet" href="${parameters.rootPro}/assets/thirdparty/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="${parameters.rootPro}/assets/thirdparty/css/font-awesome.min.css" />
+      <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css' />
+      <link rel="stylesheet" href="${parameters.rootPro}/assets/thirdparty/css/animate.min.css" />
+
+      <!-- Main Style -->
+      <link id="main-style" rel="stylesheet" href="${parameters.rootPro}/assets/thirdparty/css/style.css" />
+
+      <!-- Responsive Styles -->
+      <link rel="stylesheet" href="${parameters.rootPro}assets/thirdparty/css/responsive.css" />
+      <link rel="stylesheet" href="${parameters.rootPro}/assets/thirdparty/css/bootstrap.css" type="text/css" />
+      <link rel="stylesheet" href="${parameters.rootPro}/assets/styles/css/autocomplete.css" type="text/css"/>
+      <link rel="stylesheet" href="${parameters.rootPro}/assets/styles/css/style.css" type="text/css"/>
+    </ui:insert>
+
+    <ui:insert name="header">
+        <ui:include src="header.xhtml" />
+    </ui:insert>
+    <ui:insert name="content">
+    </ui:insert>
+    <ui:insert name="footer">
+
+    </ui:insert>
+    <ui:insert name="js-include">
+      <script type="text/javascript" src="${parameters.rootPro}assets/thirdparty/js/jquery-2.0.2.min.js"></script>
+      <script type="text/javascript" src="${parameters.rootPro}assets/thirdparty/js/jquery-ui.1.10.4.min.js"></script>
+
+      <!-- Twitter Bootstrap -->
+      <script type="text/javascript" src="${parameters.rootPro}assets/thirdparty/js/bootstrap.js"></script>
+
+    </ui:insert>
+  </h:body>
+</html>
+
